@@ -1,5 +1,5 @@
 {% set name = "ome-zarr-models" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ome_zarr_models-{{ version }}.tar.gz
-  sha256: 5c9a92c65618ca5163d547d817d4ce0c045fcfafccce97ab2822c3cbf5e46b78
+  sha256: 84d2b9cc1587b51b2e7bca4626ef88898fb1805bef68e9d8026d269367054952
 
 build:
   noarch: python
