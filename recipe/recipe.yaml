@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ome-zarr-models
-  version: "0.1.6"
+  version: "0.1.7"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ome_zarr_models-${{ version }}.tar.gz
-  sha256: 495f7fa41245064b002b1d730735f43e67cad974a6dc7b97a8d3880e244ab526
+  sha256: 1e7803e0ea5102795946bf68a6e64354d0ce516b797231536ce34a5fa83ed9a1
 
 build:
   number: 0
