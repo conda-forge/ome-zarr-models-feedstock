@@ -27,7 +27,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - zarr <3
-    - pydantic
+    - pydantic <2.11.5
     - pydantic-zarr
 
 tests:
