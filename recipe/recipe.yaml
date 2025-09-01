@@ -26,9 +26,9 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - zarr <3
-    - pydantic <2.11.5
-    - pydantic-zarr
+    - zarr >=3.1.1
+    - pydantic >=2.11.5
+    - pydantic-zarr >=0.8.2
 
 tests:
   - python:
