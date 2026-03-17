@@ -25,7 +25,7 @@ requirements:
     - hatch-vcs
     - pip
   run:
-    - python >=${{ python_min }}
+    - python >=${{ python_min }},<3.14
     - zarr >=3.1.1
     - pydantic >=2.11.5
     - pydantic-zarr >=0.8.2
@@ -35,8 +35,8 @@ tests:
       imports:
         - ome_zarr_models
       pip_check: true
-
       python_version: ${{ python_min }}.*
+
 about:
   summary: A minimal Python package for reading OME-Zarr (meta)data
   license: MIT
