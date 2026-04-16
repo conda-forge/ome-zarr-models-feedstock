@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ome-zarr-models
-  version: "1.6"
+  version: "1.7"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ome_zarr_models-${{ version }}.tar.gz
-  sha256: 00735ad939d2b5f6a4f583cc19af1e8a5247fa1e93f1f08191143cd913b9633a
+  sha256: 3979d304f7669e7a22be0bd8a6dd5dcc93fe85af3d842e56930d2ef2e6929090
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
   run:
     - python >=${{ python_min }},<3.14
     - zarr >=3.1.1
-    - pydantic >=2.11.5
+    - pydantic >=2.11.5,<2.13
     - pydantic-zarr >=0.8.2
 
 tests:
