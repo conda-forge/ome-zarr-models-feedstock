@@ -36,7 +36,9 @@ tests:
       imports:
         - ome_zarr_models
       pip_check: true
-      python_version: ${{ python_min }}.*
+       python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: A minimal Python package for reading OME-Zarr (meta)data
