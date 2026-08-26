@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: ome-zarr-models
   version: "1.8.0"
-  python_min: '3.11'
+  python_min: '3.12'
 
 package:
   name: ${{ name|lower }}
