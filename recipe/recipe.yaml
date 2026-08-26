@@ -36,7 +36,7 @@ tests:
       imports:
         - ome_zarr_models
       pip_check: true
-       python_version:
+      python_version:
         - ${{ python_min }}.*
         - "*"
 
